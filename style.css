@@ -3,6 +3,11 @@ img {
     margin-bottom: 48px;
 }
 
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .img {
     width: 50%;
     display: inline-block;
@@ -10,8 +15,17 @@ img {
 
 .btn-primary {
     margin: 20px 15px 20px 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+#buttons {
+    background: #8fe7ee;
+    padding-left: 15px;
+    border-bottom: 4px rgb(86, 134, 255) solid;
 }
 
 #addButton {
-    background: green;
+    background: #eae7e7;
+    border: 4px rgb(86, 134, 255) solid;
+    border-top: 0;
 }
